@@ -1,2 +1,63 @@
 # telefonno_kontrol
 Matematiksel kurallara dayalı, modern arayüzlü ve Python/Flask tabanlı Kasaba Telefon Kayıt Sistemi.
+# 🏙️ Kasaba Telefon Kayıt Sistemi (Town Phone Registry)
+
+> Özel matematiksel algoritmalarla doğrulama yapan, modern ve güvenli bir telefon rehberi simülasyonu.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-2.x-green.svg)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange.svg)
+![Frontend](https://img.shields.io/badge/UI-Glassmorphism-purple.svg)
+
+## 📖 Proje Hakkında
+
+Bu proje, sıradan bir rehber uygulamasından farklı olarak, telefon numaralarının belirli **matematiksel ve mantıksal kurallara** uymasını zorunlu kılan bir web uygulamasıdır. Kullanıcı arayüzü, modern **Glassmorphism (Buzlu Cam)** tasarım dili kullanılarak, CSS ve Vanilla JS ile geliştirilmiştir.
+
+### 🎯 Temel Özellikler
+
+* **Matematiksel Doğrulama:** Girilen numaranın (Örn: 123123) ilk 3 hanesinin toplamı, son 3 hanesinin toplamına eşit olmalıdır. Ayrıca tek ve çift basamakların toplamları da birbirini tutmalıdır.
+* **Dinamik Arayüz:** Kullanıcı numarayı yazarken kurallar anlık olarak kontrol edilir (Frontend Validation).
+* **Modern UI:** Split-screen (Bölünmüş ekran) tasarımı ve gece modu estetiği.
+* **Tam Entegrasyon:** Python (Flask) Backend ve MySQL veritabanı ile tam çalışan bir kayıt sistemi.
+
+## 🛠️ Teknolojiler
+
+* **Backend:** Python, Flask, Flask-MySQLdb
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Veritabanı:** MySQL
+* **Tasarım:** Custom CSS (Glassmorphism Effects)
+
+## 🚀 Kurulum
+
+Projeyi kendi bilgisayarınızda çalıştırmak için:
+
+1.  Python kütüphanelerini yükleyin:
+    ```bash
+    pip install Flask flask-mysqldb flask-cors
+    ```
+2.  MySQL veritabanını oluşturun:
+    ```sql
+    CREATE DATABASE telefon_db;
+    ```
+3.  `app.py` dosyasını çalıştırın:
+    ```bash
+    python app.py
+    ```
+4.  Tarayıcıda `http://localhost:5001` adresine gidin.
+   
+5.  ## 🐳 Docker ile Hızlı Kurulum (Önerilen)
+
+Projeyi bilgisayarınıza Python veya MySQL kurmadan, sadece Docker kullanarak tek komutla çalıştırabilirsiniz.
+
+1.  Projeyi indirin ve klasöre gidin.
+2.  Terminali açın ve şu komutu çalıştırın:
+
+```bash
+docker-compose up --build
+
+## 📸 Ekran Görüntüsü
+
+*(video.mp4)*
+
+---
+*Geliştirici: [Sude Sığırcı]*
