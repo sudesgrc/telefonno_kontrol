@@ -49,15 +49,16 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
 
 Projeyi bilgisayarınıza Python veya MySQL kurmadan, sadece Docker kullanarak tek komutla çalıştırabilirsiniz.
 
-1.  Projeyi indirin ve klasöre gidin.
-2.  Terminali açın ve şu komutu çalıştırın:
+1.  Projeyi indirin ve klasöre gidin.<img width="355" height="481" alt="Ekran Resmi 2025-12-09 18 54 29" src="https://github.com/user-attachments/assets/b5d402c6-1b54-4cbc-936f-
+
+https://github.com/user-attachments/assets/b668cc1d-6f99-49e6-9900-ba2ef8cbc1ee
+
+2240436b4b29" />
+
+2.  Terminali açın ve şu komutu<img width="440" height="547" alt="Ekran Resmi 2025-12-09 18 57 36" src="https://github.com/user-attachments/assets/a5ac18cd-e075-4453-8d6b-05d9557c2edd" />
+ çalıştırın:
+<img width="547" height="253" alt="Ekran Resmi 2025-12-09 18 57 54" src="https://github.com/user-attachments/assets/2c061cd5-f4a6-42b8-b774-79d77c8d4a1b" />
 
 ```bash
 docker-compose up --build
 
-## 📸 Ekran Görüntüsü
-
-*(video.mp4)*
-
----
-*Geliştirici: [Sude Sığırcı]*
