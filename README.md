@@ -55,10 +55,15 @@ https://github.com/user-attachments/assets/b668cc1d-6f99-49e6-9900-ba2ef8cbc1ee
 
 2240436b4b29" />
 
-2.  Terminali açın ve şu komutu<img width="440" height="547" alt="Ekran Resmi 2025-12-09 18 57 36" src="https://github.com/user-attachments/assets/a5ac18cd-e075-4453-8d6b-05d9557c2edd" />
+2.  Terminali açın ve şu komutu
  çalıştırın:
-<img width="547" height="253" alt="Ekran Resmi 2025-12-09 18 57 54" src="https://github.com/user-attachments/assets/2c061cd5-f4a6-42b8-b774-79d77c8d4a1b" />
+
 
 ```bash
 docker-compose up --build
+ ```
+
+<img width="440" height="547" alt="Ekran Resmi 2025-12-09 18 57 36" src="https://github.com/user-attachments/assets/a5ac18cd-e075-4453-8d6b-05d9557c2edd" />
+
+<img width="547" height="253" alt="Ekran Resmi 2025-12-09 18 57 54" src="https://github.com/user-attachments/assets/2c061cd5-f4a6-42b8-b774-79d77c8d4a1b" />
 
